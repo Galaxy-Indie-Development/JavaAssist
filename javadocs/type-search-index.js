@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"gis.JavaAssist.gui","l":"ui"},{"p":"gis.JavaAssist.gui","l":"window"}];updateSearchResults();
