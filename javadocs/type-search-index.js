@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"gis.JavaAssist.gui","l":"ui"},{"p":"gis.JavaAssist.gui","l":"window"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"gis.JavaAssist.gui","l":"button"},{"p":"gis.JavaAssist.conversion","l":"conv"},{"p":"gis.JavaAssist.file","l":"file"},{"p":"gis.JavaAssist.gui","l":"progressbar"},{"p":"gis.JavaAssist.conversion","l":"temp"},{"p":"gis.JavaAssist.gui","l":"ui"},{"p":"gis.JavaAssist.gui","l":"window"}];updateSearchResults();
