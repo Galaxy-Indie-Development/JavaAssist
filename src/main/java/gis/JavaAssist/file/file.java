@@ -5,7 +5,7 @@ import java.io.*;
 /**
  * @author Zachary Nichelson
  * Created on 6/16/22
- * @description File class uses the natural Java FileReader, FileWriter and PrintWriter Classes.
+ * description File class uses the natural Java FileReader, FileWriter and PrintWriter Classes.
  */
 public class file {
     public file(){

@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"gis.JavaAssist.conversion"},{"l":"gis.JavaAssist.file"},{"l":"gis.JavaAssist.gui"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"gis"},{"l":"gis.JavaAssist.conversion"},{"l":"gis.JavaAssist.file"},{"l":"gis.JavaAssist.gui"},{"l":"gis.JavaAssist.mathf"}];updateSearchResults();

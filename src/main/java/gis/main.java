@@ -11,13 +11,22 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 
 public class main {
-    private static int WIDTH = 1000;
-    private static int HEIGHT = 650;
-    private static boolean isVisible = true;
-    private static conv conv = new conv();
-    private static equations mathf = new equations();
+    private static final int WIDTH = 1000;
+    private static final int HEIGHT = 650;
+    private static final boolean isVisible = true;
+    private static final conv conv = new conv();
+    private static final equations mathf = new equations();
 
     public static void main(String[] args) throws Exception {
+        window win = new window();
+
+        text test = new text();
+        JFrame wind = win.createWin(WIDTH, HEIGHT, isVisible);
+        JPanel bg = win.createDrawSurface(WIDTH, HEIGHT);
+
+        win.add(wind, bg, false);
+        bg.add(test.createTxtField("Enter your name", 16,100,100,100,100));
+
 
 
 

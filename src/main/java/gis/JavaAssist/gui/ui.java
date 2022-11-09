@@ -5,7 +5,7 @@ import java.awt.*;
 
 /**
  * @author Zachary Nichelson
- * @created 06/13/2022
+ * created 06/13/2022
  *
  * The goal of the UI Library, is to attempt to simplify and speed up the Java Graphical Interface process quicker
  * well also attempting to keep alot of the things the same! With this being said, a brief example is that when you create
@@ -25,7 +25,7 @@ import java.awt.*;
  * use the JFrame .setLocationRelativeTo() or not. If you choose not to your window will remain in the same position. If you
  * set slrt (setLoctionRelativeTo) boolean to true it will recenter your window!
  */
-public class ui {
+public abstract class ui {
 
     /**
      *
@@ -46,6 +46,10 @@ public class ui {
         }
     }
 
+    public void add(JLabel label, Component component) {
+        label.add(component);
+    }
+
     /**
      *
      * @param win JFrame that you would like to collect the MenuItem Component
@@ -56,5 +60,18 @@ public class ui {
         win.pack();
     }
 
+    public void set(Component comp, boolean slrt, boolean isVisible){
+        if(slrt) {
+            comp.setVisible(isVisible);
 
+        }
+        else{
+            comp.setVisible(isVisible);
+
+        }
+    }
+
+    public void set(Component comp, boolean slrt, String text){
+
+    }
 }

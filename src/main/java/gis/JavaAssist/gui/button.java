@@ -5,7 +5,7 @@ import java.awt.*;
 
 /**
  * @author Zachary Nichelson
- * @created 06/13/2022
+ * created 06/13/2022
  */
 public class button extends ui{
 

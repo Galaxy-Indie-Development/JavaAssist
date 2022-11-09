@@ -4,11 +4,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
+/**
+ * @author Zachary Nichelson
+ * Created on 06/16/22
+ */
 public class window extends ui{
     String title = "";
     Image ic = Toolkit.getDefaultToolkit().getImage("C:/Users/gam3r//Desktop/Coding Projects/Java Programs/JavaAssist/src/main/java/gis/ja.png");
     JFrame win;
-
 
     public window(){
         JPanel panel = null;
@@ -44,13 +47,24 @@ public class window extends ui{
         return win;
     }
 
+    public JLabel createBG(String fn, int width, int height){
+        Image bgimg = Toolkit.getDefaultToolkit().getImage(fn);
+        ImageIcon ic = new ImageIcon(bgimg);
+
+        JLabel bg = new JLabel();
+        bg.setBounds(0, 0, width, height);
+        bg.setIcon(ic);
+
+        return bg;
+    }
+
 
     /**
      *
      * @param WIDTH Sets the height of the default Menu Window
      * @param HEIGHT Sets the height of the default Menu Window
      * @param isVisible Sets if the default Menu Window is visible
-     * @return
+     * @return returns the JFrame
      */
     public JFrame createMenuWin(int WIDTH, int HEIGHT, boolean isVisible){
         win = new JFrame();
@@ -104,7 +118,7 @@ public class window extends ui{
      *
      * @param win JFrame that you would like to collect the MenuItem Component
      * @param i Index of the Menu you would like to get the child of
-     * @return
+     * @return returns the JFrame
      */
     public Component getMComp(JFrame win, int i) {
         Component comp = win.getJMenuBar().getComponent(i);
@@ -116,7 +130,7 @@ public class window extends ui{
      * @param win JFrame that you would like to collect the MenuItem Component
      * @param i Index of the Menu you would like to get the child of
      * @param j Index of the MenuItem you would like to get
-     * @return
+     * @return returns the JFrame
      */
     public Component getMComp(JFrame win, int i, int j) {
         Component comp = win.getJMenuBar().getMenu(i).getItem(j);
